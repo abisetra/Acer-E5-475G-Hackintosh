@@ -2294,8 +2294,7 @@ DefinitionBlock ("", "SSDT", 2, "abi", "ACRPRDCT", 0x00000000)
 
         Scope (LPCB)
         {
-            If (_OSI ("Darwin"))
-            {
+            
                 Scope (EC0)
                 {
                     Method (_Q8E, 0, NotSerialized)  // _Qxx: EC Query, xx=0x00-0xFF
@@ -2310,7 +2309,7 @@ DefinitionBlock ("", "SSDT", 2, "abi", "ACRPRDCT", 0x00000000)
                         Notify (\_SB.PCI0.GFX0.DD1F, 0x87) // Device-Specific
                         Notify (PS2K, 0x0205)
                         Notify (PS2K, 0x0285)
-                    }
+                    
                 }
 
                 Device (DMAC)
