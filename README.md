@@ -42,7 +42,6 @@
 
 - Acidanthera team
 - Alexandred and VoodooI2C team
-- OpenIntelWireless team
 - RehabMan
 - Andres
 - Rockavoldy
